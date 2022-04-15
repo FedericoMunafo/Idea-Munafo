@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.gridContainer{
+    display: grid;
+    background-color: #ffdd5a;
+    grid-template-columns: 0.7fr 2fr 1fr;
+    grid-template-rows: 1fr 0.20fr 1fr;
+    gap: 5px;
+}
+.hijo{
+    background-color: #ffdd5a;
+   
+}
+.logo{
+    text-align: center;
+    grid-column: 1/4;
+    justify-content: center;
+
+}
+.hijo-1{
+    margin-bottom: 100px;
+    grid-column: 1/4;  
+    text-align: center; 
+}
+.hijo-2{
+    background-color: #ffdd5a;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+.hijo-3{
+    background-color: #ffdd5a;
+    grid-column:1/4;
+    display:grid;
+    justify-content: stretch;
+    text-align: center;
+    height: 350px;
+}
+.hijo-3 section{
+    background-color: #ffdd5a;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav a{
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    grid-column: 1/4;
+}
+ul{
+    display: inline-flex;
+    grid-column: 1/4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+li{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display:inline-flex;
+    font-size: x-large;
+
+}
+
+nav ul li:hover{
+    display: flexbox;
+    background-color:powderblue;
+    color: black;
+    text-decoration: none;
+    
+}
+.hijo-4{
+    background-color: #ffdd5a;
+    align-self: stretch;
+    justify-self: stretch;
+    grid-column: 1/4;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.descripcion{
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+    justify-content: center;
+    display: -webkit-box;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+img{
+    height: auto;
+    width: auto;
+    margin-bottom: 50px;
+}
+h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hijo-5{
+    background-color: #ffdd5a;
+    align-self: stretch;
+    justify-self: stretch;
+    grid-column: 1/4;
+    text-align: center;
+}
+.hijo-6{
+    background-color: #ffdd5a;
+    align-self: stretch;
+    justify-self: stretch;
+    grid-column: 1/4;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.imagenes__trabajos__ejemplo3{
+    margin-top: 50px;
+}
+.hijo-7{
+    margin-bottom: 100px;
+    background-color: #ffdd5a;
+    align-self: stretch;
+    justify-content: stretch;
+    align-self: stretch;
+    grid-column: 1/4;
+    
+}
+footer{
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}    
+.pie__pages{
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
