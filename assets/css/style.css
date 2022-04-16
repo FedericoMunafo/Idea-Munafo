@@ -88,6 +88,14 @@ nav ul li:hover{
     text-align: center;
     margin-bottom: 50px;
 }
+.img__efects{
+    transition: width 2s, height 2s, transform 2s;
+}
+.img__efects:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
 .descripcion{
     font-weight: bold;
     font-size: large;
@@ -408,6 +416,18 @@ nav ul li:hover{
     grid-row: 4/5;
     height: 100px;
     width: 100px;
+}
+form{
+    border:outset black;
+    position: relative;
+    animation-name: formulario;
+    animation-duration: 4s;
+    animation-delay: 2s
+}
+@keyframes formulario {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
 }
 .turnos__li{
     display: block;
