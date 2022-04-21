@@ -6,27 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Nails</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="shortcut icon" href="/assets/img/sweet logo.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="gridContainer__turnos">
-        <div class="hijo hijo-1__turnos">
-        <img class="logo" src="/assets/img/Album Sweet/sweet logo.png" alt="Logo Sweet Nails"class="comienzo__logo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <img src="/assets/img/Album Sweet/sweet logo.png" class="rounded" alt="logo">
+                </div>
+            </div>
         </div>
-        <div class="hijo-2__turnos">
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Inicio</a></li>
-                    <li><a href="/assets/pages/turnos.html">Turnos</a>
-                    <li><a href="/assets/pages/galeria.html">Galeria De Imagenes</a></li>
-                    <li><a href="/assets/pages/productos.html">Productos</a></li>
-                    <li><a href="/assets/pages/productos.html">Contacto</a></li>
+
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/turnos.html">Turnos</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/contacto.html">Contacto</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
         </div>
-        <div class="hijo-3__turnos">
-            <h3>Turnos</h3>
-                <p class="turnos">
+        <div class="row">
+            <div class="col">
+                <h3 class="turnos__titulo">Turnos</h3>
+                <p class="turnos__diseno">
                     En esta sección te explicamos cual es el procedimiento a seguir para poder solicitar tu turno, no nos olvidemos de los valores principales como el compromiso, la puntualidad y si no podes acudir a tu turno avisanos con tiempo para poder reacomodarnos.
                 </p>
                 <p>
@@ -35,48 +52,76 @@
                 <p>
                     Para reservar tu turno tenes que enviarnos una seña de $350, la cual se descuenta del pago total de nuestros servicios. Si no podes venir al día y horario pactado, tenes 24 hs antes del turno para poder reubicarlo en nuestra agenda o si queres cancelar por total el turno se te reintegra el dinero, de no ser así, perderás el total de la seña y deberás volver a rellenar el formulario para poder buscarte un nuevo turno.
                 </p>
-    </div>
-        <div class="hijo-4__turnos">
-            <div  class="turnos__img"><iframe src="/assets/video/bienvenido.mp4" autoplay></iframe></div>
-            <h3>Solicitud de Turno</h3>
-            <div class="turnos__formulario">
-                
-            <form action="">
-                <ul>
-                    <li class="turnos__li">
-                        <label for="nombre-apellido">Nombre y Apellido</label>
-                        <input type="Name" id="nombre-apellido" required>
-                    </li>
-                    <li class="turnos__li">
-                        <label for="telefono">Telefono</label>
-                        <input type="number" id="telefono" required>
-                    </li>
-                    <li class="turnos__li">
-                        <label for="correo-electronico">Correo Electronico</label>
-                        <input type="email" id="correo-electronico" required>
-                    </li>
-                    <li class="turnos__li">
-                        <label for="contrasena">Contraseña</label>
-                        <input type="password" id="contrasena" required>
-                    </li>
-                    <li class="turnos__li">    
-                        <label for="servicio">Servicio Elegido</label>
-                        <input type="text" id="servicio" required>
-                    </li>
-                    <li class="turnos__li">
-                        <input type="submit" value="Enviar"></p>
-                </li>
-            </ul>
             </div>
-            </form>
         </div>
-    <div class="hijo-5__turnos">
-        <footer class="pie">
-            <a class="pie__pages" href="/assets/pie/redes.html">Redes Sociales
-            <a class="pie__pages" href="/assets/pie/datafiscal.html">Data Fiscal
-            <a class="pie__pages" href="/assets/pie/terminos.html">Terminos y Condiciones
-        </footer>
+        <div class="row">    
+            <div class="col">
+                    <form class="espacio__formu">
+                        <div class="row mb-3">
+                          <label for="nombre-apellido" class="col-2 col-form-label">Nombre y Apellido</label>
+                          <div class="col-sm-3">
+                        <input type="text" class="form-control" id="nombre-apellido" required>
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="telefono" class="col-2 col-form-label">Telefono</label>
+                          <div class="col-sm-3">
+                            <input type="number" class="form-control" id="telefono" required>
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="correo-electronico" class="col-2 col-form-label">Correo Electronico</label>
+                            <div class="col-sm-3">
+                              <input type="email" class="form-control" id="correo-electronico" required>
+                            </div>
+                          </div>  
+                        <fieldset class="row mb-3">
+                          <legend class="col-form-label col-sm-2 pt-0">Seleccionar Servicio</legend>
+                          <div class="col-sm-3">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label" for="gridRadios1">
+                                Esmaltado Semipermantente
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                                Capping Gel
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                              <label class="form-check-label" for="gridRadios3">
+                                Pies y Manos
+                              </label>
+                            </div>
+                          </div>
+                        </fieldset>
+                        <div class="row mb-3">
+                          <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck1">
+                              <label class="form-check-label" for="gridCheck1">
+                                Confirmar Turno
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
+                      </form>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col text-center">
+                <div class="card-footer text-muted">
+                    <a class="pie__pages fs-3 text" href="/assets/pie/redes.html">Redes Sociales
+                    <a class="pie__pages fs-3 text" href="/assets/pie/datafiscal.html">Data Fiscal
+                    <a class="pie__pages fs-3 text" href="/assets/pie/terminos.html">Terminos y Condiciones
+                </div>  
+            </div>
+        </div>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
