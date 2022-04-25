@@ -7,50 +7,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SWEET NAILS</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="shortcut icon" href="/assets/img/sweet logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f36221f28b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="comienzo">
-        <img src="/assets/img/Album Sweet/sweet logo.png" alt="Logo Sweet Nails"class="comienzo__logo">
-    </div>
-        <div class="menu">
-            <nav>
-            <ul class="menu__lista">
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/assets/pages/turnos.html">Turnos</a></li>
-                <li><a href="/assets/pages/galeria.html">Galeria De Imagenes</a></li>
-                <li><a href="/assets/pages/productos.html">Productos</a></li>
-                <li><a href="/assets/pages/contacto.html">Contacto</a></li>
-            </ul>
-            </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <img src="/assets/img/Album Sweet/sweet logo.png" class="rounded" alt="logo">
+                </div>
+            </div>
         </div>
-    <div class="pressOn">
-    <p class="pressOn__description">
-        En Sweet Nails nuestros clientes son lo primero, es por esto que creamos un nuevo sistema de uñas postizas, personalizadas, a medida y reutilizables que podes venir a buscar al estudio y que nosotros hagamos el trabajo, o si estas sin tiempo y necesitas tus uñitas para el finde podes llevarlas y colocarlas en casa!
-    </p>
-    <p>
-        Nuestros sistema Press On cuenta con los siguientes beneficios por los cuales no te lo podes perder!
-    </p>    
-    <iframe class="pressOn__video" src="/assets/videos/pressOnVideo.mp4" autoplay ></iframe>
-    </div>
-    <div class="pressOn__beneficts">
-        <ul class="pressOn__tittle">Beneficios</ul>
-        <li class="pressOn__beneficts__list">Rapidez, litermalente en 15 minutos tenes uñas nuevas</li>
-        <li class="pressOn__beneficts__list">Comodidad, no hace falta que salgas de casa.</li>
-        <li class="pressOn__beneficts__list">Sin turno previo, solo tenes que encargalas en la semana.</li>
-        <li class="pressOn__beneficts__list">Totalmente personalizadas: elegís formato, largo y diseño.</li>
-        <li class="pressOn__beneficts__list">Eco Friendly, podes reutilizarlas y no dañan tu uña natural</li>
 
-    </div>
-    <div>
-    
-    </div>
-       
-    <footer class="pie">
-            <a class="pie__pages" href="/assets/pie/redes.html">Redes Sociales</a>
-            <a class="pie__pages" href="/assets/pie/datafiscal.html">Data Fiscal</a>
-            <a class="pie__pages" href="/assets/pie/terminos.html">Terminos y Condiciones</a>
-    </footer>  
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/turnos.html">Turnos</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item border border-5 fs-4">
+                      <a class="nav-link" href="/assets/pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col pressOn mb-5 mt-5">
+                <p class="pressOn__description">
+                En Sweet Nails nuestros clientes son lo primero, es por esto que creamos un nuevo sistema de uñas postizas, personalizadas, a medida y reutilizables que podes venir a buscar al estudio y que nosotros hagamos el trabajo, o si estas sin tiempo y necesitas tus uñitas para el finde podes llevarlas y colocarlas en casa!
+                </p>
+                <p>Nuestros sistema Press On cuenta con los siguientes beneficios por los cuales no te lo podes perder!
+                </p>
+            </div>
+        </div>
+            <div class="row justify-content-evenly">
+                    <div class="col text-center">
+                        <iframe class="pressOn__video" src="/assets/video/pressOnVideo.mp4" width="350px" height="400px" autoplay></iframe>
+                    </div>
+                    <div class=" col">
+                        <ul class="pressOn__tittle">Beneficios
+                            <li class="pressOn__beneficts__list">Rapidez, litermalente en 15 minutos tenes uñas nuevas</li>
+                            <li class="pressOn__beneficts__list">Comodidad, no hace falta que salgas de casa.</li>
+                            <li class="pressOn__beneficts__list">Sin turno previo, solo tenes que encargalas en la semana.</li>
+                            <li class="pressOn__beneficts__list">Totalmente personalizadas: elegís formato, largo y diseño.</li>
+                            <li class="pressOn__beneficts__list">Eco Friendly, podes reutilizarlas y no dañan tu uña natural</li>
+                        </ul>
+                    </div>
+            </div>  
+            <div class="row">
+                <div class="col text-center mb-5">
+                    <div>
+                        <iframe class="pressOn__coloca__Vid" src="/assets/video/colocacionPressOn.mp4" width="350px" height="400px" autoplay alt="colocandoPress"></iframe>
+                        <h2 class="title__products">Colocación</h2>
+                        <p class="descripcion__products"> 1- Limpiar bien las uñas, no debe quedar nada de brillo, ni base.</p>
+                        <p class="descripcion__products"> 2- Empujá las cutículas para atrás con el palillo naranjo.</p>
+                        <p class="descripcion__products"> 3- Limá y quitá el brillo de la uña.</p>
+                        <p class="descripcion__products"> 4- Retirá el excedente de partículas con el Wipe.</p>
+                        <p class="descripcion__products"> 5- Colocá el Nail Glue sobre la uña, importante no tocar la cutícula.</p>
+                        <p class="descripcion__products"> 6- Colocá la Press On Nail lo más cerca de la cutícula sin tocarla para que encaje perfectamente y luego mantené presionado durante 15 segundos para que seque.</p>
+                        <p class="descripcion__products"> Listo en solo un ratito y sin tener que salir de casa ya tenes tus uñitas listas, no te lo pierdas!</p>
+                    </div>
+                </div>
+
+                <div class="col text-center mb-5">
+                    <div class="semipermante__diseno">
+                        <img class="rounded" src="/assets/img/Album Sweet/queincluyePress.jpeg" width="350px" height="400px"
+                        alt="queincluyePressOn">
+                        <h2 class="title__products">Contenido de Kit</h2>
+                        <p class="descripcion__products"> Cuando adquiris tus Press On, cada kit contiene:</p>
+                        <p class="descripcion__products"> 1- Palo de naranjo para colocacción.</p>
+                        <p class="descripcion__products"> 2- Pegamento Press.</p>
+                        <p class="descripcion__products"> 3- Set de Uñas personalizado.</p>
+                        <p class="descripcion__products"> 3- Instructivo colocación y remosión.</p>
+                    </div>
+                </div>
+            
+                <div class="col text-center mb-5">
+                    <div>
+                        <img class="pressOn__coloca__Vid" src="/assets/img/Album Sweet/rojoPressOn.jpeg" width="350px" height="400px" alt="pressOnkitrojo">
+                        <h2 class="title__products">Remosión</h2>
+                        <p class="descripcion__products"> 1- Colocar en un recipiente agua tibia, unas gotas de aceite (oliva, almendra, de cutícula) y jabón líquido.</p>
+                        <p class="descripcion__products"> 2- Introduce tus manos y déjalas remojar por 10 minutos.</p>
+                        <p class="descripcion__products"> 3- Si aún quedan "Press" unidas nunca las arranques; repite el paso 2 hasta que se desprendan solas.</p>
+                        <p class="descripcion__products"> Realizando el procedimiento de esta manera, no dañaras tu set y podras utilizarlo tanta veces como vos quieras.
+                    </div> 
+                </div>
+            </div>
+        
+           
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-google"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nailsweet.nails/?hl=es"     role="button">
+                <i class="fab fa-instagram"></i>
+                </a>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Todos los derechos reservados: <a class="text-white" href="https://www.instagram.com/nailsweet.nails/?hl=es">Sweet Nails</a>
+            </div>
+        </footer>
+    </div>  
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>  
 </body>
 </html>

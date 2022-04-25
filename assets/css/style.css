@@ -65,6 +65,7 @@ body{
     transform: rotate(360deg);
 }
 .descripcion{
+    font-style: italic;
     font-weight: bold;
     font-size: large;
     text-align: justify;
@@ -91,6 +92,7 @@ h2{
     margin-top:300px;
 }
 .nailArt__diseno{
+    text-align: center;
     margin-top:150px;
 }
 .pressON__diseno{
@@ -144,4 +146,50 @@ h2{
 }
 .turnos__titulo{
     margin-top:100px;
+}
+#galeria{
+    width: 100%;
+}
+#galeria .col{
+
+    margin: 0 !important;
+}
+#galeria img:hover{
+    border: 5px solid whitesmoke;
+}
+.espacio__formu__contact{
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left: 50px;
+}
+.pressOn__beneficts{
+    list-style-type:square;
+}
+.pressOn__tittle{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    border: solid 2px black;
+    margin-top:100px;
+}
+.pressOn__beneficts__list{
+    text-align: justify;
+    list-style-type:square;
+}
+.descripcion__products{
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+    justify-content: center;
+    display: -webkit-box;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.title__products{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.pressOn__coloca__Vid{
+    margin-top: 130px;
 }
