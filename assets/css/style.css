@@ -8,7 +8,7 @@ body {
 section.intro__inicio {
   margin-top: 100px; }
 
-div.hijo-2__inicio {
+.hijo-2__inicio {
   background-color: #ffdd5a !important;
   text-align: center; }
 
@@ -35,9 +35,6 @@ div.hijo-2__inicio {
   justify-content: center;
   display: -webkit-box;
   margin-top: 15px;
-  margin-bottom: 50px; }
-
-img {
   margin-bottom: 50px; }
 
 h2 {
@@ -71,14 +68,6 @@ h2 {
 
 .imagenes__trabajos__ejemplo3 {
   margin-top: 50px; }
-
-.hijo-7__inicio {
-  margin-bottom: 100px;
-  background-color: #ffdd5a !important;
-  align-self: stretch;
-  justify-content: stretch;
-  align-self: stretch;
-  grid-column: 1/4; }
 
 .turnos__li {
   display: block;
@@ -128,5 +117,11 @@ h2 {
   margin-bottom: 50px;
   margin-top: 50px; }
 
+.productos__img {
+  width: 350px;
+  height: 400px; }
+
 .pressOn__coloca__Vid {
+  width: 350px;
+  height: 400px;
   margin-top: 130px; }

@@ -13,7 +13,7 @@ section.intro__inicio{
     margin-top:100px;
 }
 
-div.hijo-2__inicio{
+.hijo-2__inicio{
     background-color: $color-background;
     text-align: center;
 }
@@ -39,6 +39,17 @@ div.hijo-2__inicio{
         @include imagenes-galeria
     }
 }
+@mixin descripciones {
+    font-style: $estilo-texto;
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+    justify-content: center;
+    display: -webkit-box;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    
+}
 
 .descripcion{
     font-style: $estilo-texto;
@@ -50,9 +61,7 @@ div.hijo-2__inicio{
     margin-top: 15px;
     margin-bottom: 50px;
 }
-img{
-    margin-bottom: 50px;
-}
+
 h2{
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -85,14 +94,6 @@ h2{
 .imagenes__trabajos__ejemplo3{
     margin-top: 50px;
 }
-.hijo-7__inicio{
-    margin-bottom: 100px;
-    background-color: $color-background;
-    align-self: stretch;
-    justify-content: stretch;
-    align-self: stretch;
-    grid-column: 1/4;   
-}
 .turnos__li{
     display: block;
     font-size: medium;
@@ -119,6 +120,7 @@ $formulario:(
     margin-bottom: map-get($formulario, margen__inferior);
     margin-left: map-get($formulario, margen__izq);
 }
+
 .pressOn__beneficts{
     list-style-type:square;
 }
@@ -146,7 +148,13 @@ $formulario:(
 .title__products{
     margin-bottom: 50px;
     margin-top: 50px;
+    
+}.productos__img{
+    width: 350px;
+    height: 400px;
 }
 .pressOn__coloca__Vid{
+    width: 350px;
+    height: 400px;
     margin-top: 130px;
 }
