@@ -36,7 +36,8 @@ section.intro__inicio{
 }
 #galeria{
     img{
-        @include imagenes-galeria
+        @include imagenes-galeria;
+        margin-bottom: 50px;
     }
 }
 @mixin descripciones {
